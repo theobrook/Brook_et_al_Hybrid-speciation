@@ -1,8 +1,8 @@
 # Brook et al. (2026) Not a dead end: hybrid speciation and syngameon-driven dynamics in an island plant radiation
 
-This repository contains the analysis scripts for Brook et al. (2026), a study of hybrid speciation and syngameon dynamics in the radiation of *Coprosma* on Lord Howe Island. The scripts cover the genomic analyses (RNA-seq), the aboveground ecological analyses, and the analyses of root arbuscular mycorrhizal (AM) fungal communities (18S metabarcoding). Methods S1-S4 in the Supplementary Information describe each step in full.
+This repository contains the analysis scripts for Brook et al. (2026), a study of hybrid speciation and syngameon dynamics in the radiation of *Coprosma* on Lord Howe Island. The scripts cover the genomic analyses (RNA-seq), the aboveground ecological analyses and the analyses of root arbuscular mycorrhizal (AM) fungal communities (18S metabarcoding). Methods S1–S4 in the Supplementary Information describe each step in full.
 
-The bash (`.sh`) files record the commands and settings used for each program. They are not runnable pipelines. Each command is shown for one example sample, K or species pair, and the analyses were run on an HPC cluster. The R scripts can be run once their input paths are set in the `Settings` section at the top of each file.
+The bash (`.sh`) files record the commands and settings used for each program. They are not runnable pipelines: each command is shown for one example sample, K or species pair, and the analyses were run on an HPC cluster. The R scripts can be run once their input paths are set in the `Settings` section at the top of each file.
 
 ## 1_genomic_analysis
 
@@ -65,6 +65,7 @@ Root AM fungal community composition from 18S V4 metabarcoding (Methods S4).
 ## Data
 
 - Code and ecological data: https://github.com/theobrook/Brook_et_al_Hybrid-speciation
-- Sequencing data (RNA-seq and 18S metabarcoding reads): NCBI BioProject [PRJNA1560391](https://www.ncbi.nlm.nih.gov/bioproject/1560391)
+- RNA-seq reads: NCBI BioProject [PRJNA1560389](https://www.ncbi.nlm.nih.gov/bioproject/1560389)
+- 18S metabarcoding reads: NCBI BioProject [PRJNA1560391](https://www.ncbi.nlm.nih.gov/bioproject/1560391)
 - Environmental layers: Papadopulos et al. (2013) *Journal of Evolutionary Biology* 26, 733–745.
 - Occurrence records and herbarium vouchers: Tables S17, S18 and S21.
