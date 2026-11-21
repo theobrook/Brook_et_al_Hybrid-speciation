@@ -1,8 +1,8 @@
 # Brook et al. (2026) Not a dead end: hybrid speciation and syngameon-driven dynamics in an island plant radiation
 
-This repository contains the analysis scripts for Brook et al. (2026), a study of hybrid speciation and syngameon dynamics in the radiation of *Coprosma* on Lord Howe Island. The scripts cover the genomic analyses (RNA-seq), the aboveground ecological analyses and the analyses of root arbuscular mycorrhizal (AM) fungal communities (18S metabarcoding). Methods S1–S4 in the Supplementary Information describe each step in full.
+This repository contains the analysis scripts for Brook et al. (2026), a study of hybrid speciation and syngameon dynamics in the radiation of *Coprosma* on Lord Howe Island. The scripts cover the genomic analyses (RNA-seq), the aboveground ecological analyses, and the analyses of root arbuscular mycorrhizal (AM) fungal communities (18S metabarcoding). Methods S1-S4 in the Supplementary Information describe each step in full.
 
-The bash (`.sh`) files record the commands and settings used for each program. They are not runnable pipelines: each command is shown for one example sample, K or species pair, and the analyses were run on an HPC cluster. The R scripts can be run once their input paths are set in the `Settings` section at the top of each file.
+The bash (`.sh`) files record the commands and settings used for each program. They are not runnable pipelines. Each command is shown for one example sample, K or species pair, and the analyses were run on an HPC cluster. The R scripts can be run once their input paths are set in the `Settings` section at the top of each file.
 
 ## 1_genomic_analysis
 
